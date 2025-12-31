@@ -37,3 +37,17 @@ let bidelli = `Silvia e Laura`
 let preside = `Dott.ssa Rossi`
 
 console.log (`Gli insegnanti Iniziano alle 8.00, è sono: ${inegnanti}, i bidelli iniziano alle 7:45, è sono: ${bidelli} e il preside Inizia alle 9:00 ,e il preside è : ${preside}`)
+
+//
+
+let età = 20
+let CartaIdentità = false
+
+if (età >= 18 && CartaIdentità == true) {
+    console.log (`Puoi entrare nel locale, benvenuto!`)
+} else if (età < 18 && CartaIdentità == true) {
+    console.log (`Mi dispiace, non puoi entrare nel locale, sei minorenne!`)
+}
+else {
+    console.log (`Mi dispiace, non puoi entrare nel locale, non hai la carta d'identità!`)
+}
